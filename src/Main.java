@@ -15,7 +15,7 @@ public class Main {
         Animal cat = new Animal("cat");
 
         cat.name = "szarlota";
-        cat.weight = 5.1;
+        cat.weight = 1.5;
 
         System.out.println(cat.name);
         System.out.println(cat.species);
