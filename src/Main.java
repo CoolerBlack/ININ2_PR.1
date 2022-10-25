@@ -32,9 +32,15 @@ public class Main {
         System.out.println(me.pet.species);
         me.pet.feed();
 
-        Car fiat = new Car("Fiat", "Bravo");
-        me.car = fiat;
+        me.car = new Car("Fiat", "Bravo");
         System.out.println(me.car.model);
+        System.out.println(me.car.producer);
+
+        me.getSalary();
+        me.setSalary(-1000);
+        me.getSalary();
+        me.setSalary(500);
 
     }
+
 }
